@@ -1,0 +1,2 @@
+module Controller2Helper
+end
