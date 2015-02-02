@@ -11,9 +11,9 @@ Rails.application.routes.draw do
 
   get "/links" => "welcome#links" 
 
-  get "/2a" => "controller2#stuff2a"
+  get "/2a" => "controller2#stuff2a", as: :page2a
 
-  get "/2b" => "controller2#stuff2b"
+  get "/2b" => "controller2#stuff2b", as: :page2b
 
 
 
